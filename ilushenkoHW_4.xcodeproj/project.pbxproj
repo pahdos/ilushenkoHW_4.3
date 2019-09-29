@@ -13,6 +13,10 @@
 		562B601B2340E367002704E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562B60192340E367002704E2 /* Main.storyboard */; };
 		562B601D2340E368002704E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562B601C2340E368002704E2 /* Assets.xcassets */; };
 		562B60202340E368002704E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562B601E2340E368002704E2 /* LaunchScreen.storyboard */; };
+		562B60282340E93D002704E2 /* IMG_9261.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 562B60272340E93D002704E2 /* IMG_9261.JPG */; };
+		562B602A2340F054002704E2 /* IMG_0228.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 562B60292340F054002704E2 /* IMG_0228.jpg */; };
+		562B602C2340F05B002704E2 /* IMG_0873.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 562B602B2340F05B002704E2 /* IMG_0873.jpg */; };
+		562B60402340FF82002704E2 /* A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 562B603F2340FF82002704E2 /* A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		562B601C2340E368002704E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562B601F2340E368002704E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562B60212340E368002704E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562B60272340E93D002704E2 /* IMG_9261.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9261.JPG; path = ../../../../../Downloads/IMG_9261.JPG; sourceTree = "<group>"; };
+		562B60292340F054002704E2 /* IMG_0228.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0228.jpg; path = ../../../../../Downloads/IMG_0228.jpg; sourceTree = "<group>"; };
+		562B602B2340F05B002704E2 /* IMG_0873.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0873.jpg; path = ../../../../../Downloads/IMG_0873.jpg; sourceTree = "<group>"; };
+		562B603F2340FF82002704E2 /* A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG"; path = "../../../../../Downloads/A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,10 @@
 			children = (
 				562B60122340E367002704E2 /* ilushenkoHW_4 */,
 				562B60112340E367002704E2 /* Products */,
+				562B60272340E93D002704E2 /* IMG_9261.JPG */,
+				562B60292340F054002704E2 /* IMG_0228.jpg */,
+				562B602B2340F05B002704E2 /* IMG_0873.jpg */,
+				562B603F2340FF82002704E2 /* A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				562B60202340E368002704E2 /* LaunchScreen.storyboard in Resources */,
+				562B60402340FF82002704E2 /* A35BAD2E-19AC-41F6-8A81-B21E9DF82247.JPG in Resources */,
+				562B602C2340F05B002704E2 /* IMG_0873.jpg in Resources */,
+				562B602A2340F054002704E2 /* IMG_0228.jpg in Resources */,
+				562B60282340E93D002704E2 /* IMG_9261.JPG in Resources */,
 				562B601D2340E368002704E2 /* Assets.xcassets in Resources */,
 				562B601B2340E367002704E2 /* Main.storyboard in Resources */,
 			);
@@ -291,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pahdos.ilushenkoHW-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxIlushenko.ilushenkoHW-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2WDBN94R9;
 				INFOPLIST_FILE = ilushenkoHW_4/Info.plist;
@@ -309,8 +326,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pahdos.ilushenkoHW-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxIlushenko.ilushenkoHW-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
